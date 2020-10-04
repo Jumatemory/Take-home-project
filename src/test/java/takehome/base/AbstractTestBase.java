@@ -77,7 +77,7 @@ public abstract class AbstractTestBase {
     @AfterMethod
     public void teardown() throws IOException {
 
-        BrowserUtilities.wait(3);
+        BrowserUtilities.wait(2);
 
         Driver.closeDriver();
     }
